@@ -18,7 +18,7 @@ const customGradient = gradient(['orange', 'orange', 'white', 'white', 'green', 
  process.on('uncaughtException', function (exception) {
   });
 
- if (process.argv.length < 7){console.log(gradient.vice(`[!] node ErrorNetwork.js <HOST> <TIME> <RPS> <THREADS> <PROXY>.`));; process.exit();}
+ if (process.argv.length < 7){console.log(gradient.vice(`[!] node blury.js <HOST> <TIME> <RPS> <THREADS> <PROXY>.`));; process.exit();}
  const headers = {};
   function readLines(filePath) {
      return fs.readFileSync(filePath, "utf-8").toString().split(/\r?\n/);
